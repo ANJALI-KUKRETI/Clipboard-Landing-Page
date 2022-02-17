@@ -5,7 +5,7 @@ import classes from "./Image.module.css";
 function Image() {
   return (
     <div className={classes.image}>
-      <img src={image} alt="image" />
+      <img src={image} alt="imgs" />
     </div>
   );
 }

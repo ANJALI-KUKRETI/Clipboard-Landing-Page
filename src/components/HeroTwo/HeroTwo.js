@@ -16,7 +16,7 @@ function HeroTwo() {
         <div className={classesSame.para}>{para}</div>
       </Card>
       <div className={classes.device}>
-        <img src={image} alt="image" />
+        <img src={image} alt="imgs" />
       </div>
     </div>
   );

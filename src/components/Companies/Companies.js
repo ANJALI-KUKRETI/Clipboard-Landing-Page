@@ -9,11 +9,11 @@ import vector from "../../images/logo-vector-graphics.png";
 function Companies() {
   return (
     <div className={classes.companies}>
-      <img src={google} alt="" srcset="" />
-      <img src={ibm} alt="" srcset="" />
-      <img src={microsoft} alt="" srcset="" />
-      <img src={hp} alt="" srcset="" />
-      <img src={vector} alt="" srcset="" />
+      <img src={google} alt="imgs" />
+      <img src={ibm} alt="imgs" />
+      <img src={microsoft} alt="imgs" />
+      <img src={hp} alt="imgs" />
+      <img src={vector} alt="imgs" />
     </div>
   );
 }

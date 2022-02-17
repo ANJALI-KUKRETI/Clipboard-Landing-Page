@@ -10,7 +10,7 @@ function Footer() {
     <div className={classes.footer}>
       <div className={classes.elements}>
         <div className={classes.logo}>
-          <img src={logo} alt="" />
+          <img src={logo} alt="imgs" />
         </div>
         <div>
           <p>FAQs</p>
