@@ -1,0 +1,13 @@
+.heroThree {
+  width: 85%;
+  margin: auto;
+}
+.comps {
+  display: flex;
+  justify-content: space-evenly;
+}
+@media (max-width: 700px) {
+  .comps {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,12 @@
+.image {
+  width: 50%;
+}
+.image img {
+  max-width: 100%;
+}
+@media (max-width: 850px) {
+  .image {
+    width: 90%;
+    margin: auto;
+  }
+}

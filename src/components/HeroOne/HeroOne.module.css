@@ -1,0 +1,36 @@
+.title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: hsl(210, 10%, 33%);
+}
+.para {
+  font-size: 0.8rem;
+  text-align: center;
+  color: hsl(201, 11%, 66%);
+  font-weight: 600;
+  line-height: 1.5rem;
+  margin-top: 1rem;
+}
+
+.mainSec {
+  display: flex;
+  margin-bottom: 2rem;
+}
+.features {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 5rem;
+}
+@media (max-width: 850px) {
+  .mainSec {
+    flex-direction: column;
+  }
+  .title {
+    font-size: 1.5rem;
+  }
+  .para {
+    font-size: 0.8rem;
+  }
+}

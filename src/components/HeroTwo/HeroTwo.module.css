@@ -1,0 +1,9 @@
+.heroTwo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.device img {
+  max-width: 100%;
+}

@@ -1,0 +1,18 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin: 1rem;
+  width: 19rem;
+  height: 10rem;
+}
+@media (max-width: 700px) {
+  .card {
+    width: 70%;
+    margin: auto;
+    height: 8rem;
+    margin-bottom: 3rem;
+  }
+}

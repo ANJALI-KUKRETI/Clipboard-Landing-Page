@@ -1,0 +1,48 @@
+.header {
+  background: url("../../images/bg-header-desktop.png");
+  background-size: cover;
+}
+
+.innerItems {
+  margin: 0.4rem 0rem;
+}
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: hsl(210, 10%, 33%);
+}
+.para {
+  font-size: 0.9rem;
+  text-align: center;
+  color: hsl(201, 11%, 66%);
+  font-weight: 600;
+  line-height: 1.5rem;
+  margin-top: 1rem;
+}
+.btns {
+  display: flex;
+}
+
+@media (max-width: 840px) {
+  .title {
+    font-size: 1.6rem;
+  }
+}
+@media (max-width: 600px) {
+  .header {
+    background: url("../../images/bg-header-mobile.png");
+    background-size: cover;
+  }
+  .title {
+    width: 17rem;
+    margin-top: 2.5rem;
+  }
+  .para {
+    font-size: 0.8rem;
+  }
+}
+@media (max-width: 450px) {
+  .btns {
+    flex-direction: column;
+  }
+}

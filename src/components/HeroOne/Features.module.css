@@ -1,0 +1,38 @@
+.feature {
+  padding: 2rem;
+  width: 20rem;
+  margin-left: 5rem;
+}
+.title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: hsl(210, 10%, 33%);
+}
+.para {
+  font-size: 0.8rem;
+  color: hsl(201, 11%, 66%);
+  font-weight: 600;
+  line-height: 1.5rem;
+  margin-top: 0.5rem;
+}
+@media (max-width: 1250px) {
+  .feature {
+    padding: 1rem;
+  }
+  .para {
+    line-height: 1.2rem;
+  }
+}
+@media (max-width: 850px) {
+  .feature {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+  }
+  .title {
+    font-size: 1.3rem;
+  }
+  .para {
+    font-size: 0.7rem;
+  }
+}
