@@ -1,0 +1,33 @@
+.companies {
+  width: 85%;
+  height: 2.5rem;
+  display: flex;
+  justify-content: space-evenly;
+  margin: auto;
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+}
+@media (max-width: 1100px) {
+  .companies img {
+    height: 2rem;
+  }
+  .companies {
+    width: 90%;
+  }
+}
+@media (max-width: 800px) {
+  .companies img {
+    height: 1.6rem;
+  }
+}
+@media (max-width: 650px) {
+  .companies {
+    flex-direction: column;
+    width: 8rem;
+    margin-top: 9rem;
+  }
+  .companies img {
+    margin: 1rem;
+    height: auto;
+  }
+}

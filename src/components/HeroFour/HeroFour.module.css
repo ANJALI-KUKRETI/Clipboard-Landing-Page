@@ -1,0 +1,10 @@
+.btns {
+  display: flex;
+  margin-top: 1rem;
+}
+
+@media (max-width: 450px) {
+  .btns {
+    flex-direction: column;
+  }
+}
